@@ -1,0 +1,15 @@
+
+
+
+
+@font-face {
+    font-family: 'museo_sans_cyrl300';
+    src: url('font/museosanscyrl_300-webfont.eot');
+    src: url('font/museosanscyrl_300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/museosanscyrl_300-webfont.woff2') format('woff2'),
+         url('font/museosanscyrl_300-webfont.woff') format('woff'),
+         url('font/museosanscyrl_300-webfont.svg#museo_sans_cyrl300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,1009 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+
+
+
+
+/*nav {
+	display: block;
+	position: relative;
+	padding: 10px 0px 10px 0px;
+	background-color: #515673;
+}
+
+nav a {
+	color: #a6abc5;
+	display: block;
+	margin: 15px;
+	padding: 9px;
+	border: 1px solid #a6abc5;
+	background: url(../images/mobile_link_arrow.png) no-repeat right center;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+nav a:hover { color: #fff; background-color: rgba(255,255,255,.15); }*/
+nav{visibility: hidden;}
+body { background-image: none;
+width: 375px;
+font-size: 14px;
+	margin: 0px auto;
+}
+.krtgl h1{font-size: 60px;
+	line-height: 50px;
+     }
+.krtgl {width:240px; right: 5%; top:45px;}
+.womans{font-size: 11pt; top:220px; right: 5%;}
+.womans_line{right: 73px;top:4px;  width:40px; height:50px; stroke-width:0.6px;}
+.maincopy{top:170px; font-size: 13pt; line-height: 15pt;}
+.planz1{
+		
+	top: 240px; font-size: 17pt; right: 5%;
+		
+      }
+.planz{
+		
+	top: 270px; font-size: 17pt; right: 5%;
+		
+      }
+.error{top:214px; width: 170px; right: 3%; stroke-width:2px;}
+.m30{
+	
+	font-size: 14px;
+	top: 310px;
+	width: 340px;
+	line-height: 16px;
+	right: 5%;
+	
+}
+.order {
+	
+   width: 190px;
+   height: 40px;
+	top: 370px;
+	right: 5px;
+overflow: hidden;
+  
+}
+.order button{
+						
+	                
+	  					
+						font-family: "Museo Sans Cyrl 100";
+	                    font-size: 20px;
+						
+					
+	
+	
+	
+	
+						
+						
+	                  
+						
+	                    /*margin-top: 30px;
+						margin-left: 50px;*/
+	                    padding-top: 2px;
+	                    padding-left: 21px;
+						padding-right: 195px;
+						letter-spacing: 3px;
+	                    
+	                    height: 101%;
+	                   
+	                    top: -200px;
+	                    right: -28px;
+	                   
+	                    
+	                   
+	
+}
+.header_arrow {
+
+
+	right: 0px;
+	top:-11px;
+	height: 70px;
+	width: 250px;
+	
+	
+}
+.jacket{
+	
+	
+	font-size: 100px;
+    left:2%;
+	top: -10px;
+	
+}
+.window{
+	
+	border: 14px solid #FE3652;
+	top: 100px;
+	left: 60px;
+	width: 120px;
+	height: 170px;
+	
+}
+.windowglass{
+	
+	top: 110px;
+	left: 65px;
+	width: 135px;
+	height: 180px;
+
+		
+}
+.windowshadow{
+	border: 14px solid #000;	
+	top: 120px;
+	left: 85px;
+	width: 120px;
+	height: 170px;
+	-webkit-filter: blur(25px);
+     -moz-filter: blur(25px);
+       -o-filter: blur(25px);
+      -ms-filter: blur(25px);
+          filter: blur(25px);
+			
+}
+
+.jacketimg{
+	
+	
+	width: 60%;
+	top: 80px;
+	
+	left:10px ;
+	/*filter: alpha(Opacity=60); /* Полупрозрачность для IE */
+    /*opacity: 0.7; /* Полупрозрачность для других браузеров */ 
+	
+}
+
+
+.shadoworder{
+	top: 370px;
+	right: 1px;
+	width: 194px;
+	height: 45px;
+	 -webkit-filter: blur(1px);
+     -moz-filter: blur(1px);                                                                                       
+       -o-filter: blur(1px);
+      -ms-filter: blur(1px);
+          filter: blur(1px);
+	
+}
+
+header { 
+	        height: 450px;
+       }
+#mainpatternv1{height: 450px;width:170%;stroke-width:0.5px;}
+#mainpatternv2{height: 450px; width:170%;stroke-width:0.5px;}
+#mainpatterng1{height: 450px;width: 100%;stroke-width:0.5px;}
+#mainpatterng2{height: 450px;width: 100%;stroke-width:0.5px;}
+#crosses{height: 450px; width:170%;stroke-width:1px; }
+#shit{
+	
+	
+    
+	right: 22%;
+	top: 80px;
+	height: 285px;
+	width: 200px;
+	stroke-width: 4px;
+	
+	
+}
+#spring_autumn{
+	
+	font-size: 6px;
+	letter-spacing: 4px;
+	right: 0px;
+	top: 6px
+	
+	
+	
+}
+.turn{
+	
+	top: 215px;
+	left: -130px;
+	width: 320px;
+	height: 60px;
+	
+	
+}
+.mainline{
+	stroke-width:0.6px;
+	top: -5px;
+	left: 130px;
+	width: 45px; 
+	height: 58px;
+}
+
+.krtgl_pagejacket{
+	
+	
+	top: 40px;
+	width: 300px;
+	font-size: 40px;
+	line-height: 35px;
+    right: 5%;
+	letter-spacing: 0px;
+	
+}
+.leatherjacket{
+	left: 4%;
+	top: 66px;
+	font-size: 140px;
+
+}
+#shit1{
+	
+	
+    
+	left: 130px;
+	top: 45px;
+	height: 300px;
+	width: 200px;
+	stroke-width: 4px;
+}
+#gallery{
+	
+	 width: 56.7%;
+	top: 180px;
+	left: 5%;
+}
+.description{
+	
+	 width: 130px;
+	 height: 210px;
+	 right:5%;
+	 top: 650px;
+}
+.blackjacket{
+	width: 300px;
+	right:5%;
+	top: 610px;
+}
+#redjacket{font-size: 18px;}
+p{ 
+	font-size: 10px;
+	line-height: 14px;
+}
+#composition{
+	top: 822px;
+	right: 69%;
+	text-align: right;
+	z-index: 10;
+	
+}
+
+
+
+.photo {
+    width: 49%;
+	margin: 1px;
+	
+}
+.photomedium {
+    width: 32.4%;
+	margin: 0px 1px 0px 1px ;
+	
+}
+
+
+
+
+
+
+
+
+
+#composition p{
+	
+	font-size: 5pt;
+	line-height: 10pt;
+
+}
+
+.compositionline{
+
+	top: 822px;
+	right: 60%;
+	height:38px;
+	width: 7%;
+	stroke-width:0.3;
+}
+.pagejacket{height: 480px;}
+#mainpatternv3{height:480px; width:170%;stroke-width:0.5px;}
+
+.howwework{
+	
+    position: relative;
+	height: 2160px;
+	
+}
+.howwe{
+	font-size: 40px;
+	margin-top: 80px;
+}
+.age2018{
+	
+	
+	margin-top:110px;
+	font-size:5pt;
+	letter-spacing: 2pt;
+}
+
+.line2018{
+	
+	height:20px;
+	top:110px;
+	width: 23%;
+	right:38%;
+   stroke-width:0.6;
+}
+.picturefon{
+
+	width: 80%;
+	top: 100px;
+	left: 5%
+	
+	
+}
+.earlyhow{
+
+	top: 180px;
+	left: 10%;
+	
+	
+	
+}
+.earlyhow p{line-height: 14pt; font-size: 11pt;}
+
+.earlyhow p a{font-size: 12pt;}
+
+.earlyhow2{
+	
+	top:250px;
+	
+}
+.earlyhow2 p{font-size: 12pt; line-height: 14pt;}
+
+.earlyhow2 p a{font-size: 10pt;}
+
+.earlyhow1{
+	
+	top:230px;
+	left: 6%;
+	
+}
+
+.earlyhow1 p{font-family: "Museo Sans Cyrl 500"; color: rgb(255,255,255,0.65); font-size: 14pt;}
+.measurements{
+	
+	top: 340px;
+	right: 36%;
+
+	
+}
+
+.measurements h3{font-size: 16pt;}
+
+.text{top: 390px;}
+.measurements p {line-height: 16pt; font-size:12pt;}
+
+
+.linesize{
+	width: 180px;
+	height: 80px;
+	top: 416px;
+	right: 36%;
+
+}
+
+
+
+.jacketmeasurements{
+    width: 79%;
+	top: 520px;
+	right: 11%;
+}
+
+
+
+
+.tableofsize{
+	width: 395px;
+	height: 500px;
+	top: 790px;
+	left: 6%;
+}
+
+.redsquare{
+	width: 73%;
+	height: 79%;
+	top: 4%;
+	left: 5px;
+}
+
+.whitesquare{
+	
+	width: 75%;
+	height: 80.5%;
+	top: 0px;
+	left: 15px;
+}
+
+
+table{
+	
+	
+	font-size: 10.5pt;
+	letter-spacing: 0.5px;
+}
+
+caption
+{
+font-size: 11pt;
+letter-spacing: 0.8px;
+}
+
+.sendthedata{
+	
+
+	top:1230px;
+	right: 20%;
+	width: 500px;
+
+	
+}
+
+.sendthedata h3{font-size: 16pt;}
+
+.sendthedata p{line-height: 14pt; font-size: 12pt;}
+
+.sendthedata a{font-size: 12pt; line-height: 20pt;}
+
+
+
+.or{position:absolute;
+	right: -18px;
+	top:150px;
+   }
+
+
+.callphone{position:absolute;
+	right: 0px;
+	top:170px;}
+
+.phone{position:absolute; 
+       right:0px;
+	   top: 215px;
+		   z-index: 10;
+}
+
+
+
+.phoneimage{
+
+	width: 22%;
+	top: 60px;
+	right: 145px;
+	
+	
+}
+
+
+
+.linephone{
+	top: 212px;
+	right:144px;
+	width: 50px;
+	height:53px;
+
+}
+
+
+
+
+
+.delivery{
+	top:1520px;
+    left: 10%;		
+}
+
+.deliverytruck{
+	left: 150px;
+	top: 220px;
+	
+}
+.deliverytext{text-align: right; width:215px;}
+
+
+.calltoaction_howwework{
+	
+	top: 1850px;
+	width: 375px;
+	height: 190px;
+	right: 0%;
+	
+}
+
+.calltoaction_howwework_shadow{
+
+	top:0px;
+	right:0px;
+	
+	width:100%;
+	height: 100%;
+
+}
+
+.calltoaction_howwework_border{
+
+	border: 14px #FE3652 solid;
+	margin-left: 20px;
+	height: 120px;
+	width: 310px;
+}
+
+.calltoaction_howwework_border p{
+	
+	font-size:10pt;
+	margin-top: 20px;
+	height: 110px;
+	letter-spacing:0.5px;
+	line-height: 12pt;
+	
+	
+}
+.calltoaction_howwework_border button{
+	position: absolute;
+	font-size: 10pt;
+	padding: 12px 5px 12px 5px;
+    letter-spacing: 1.5px;
+	top: -135px;
+	right: -95px;
+	width:100px;
+
+}
+
+
+
+.natural_leather{
+	line-height: 10pt;
+	top:200px;
+	right:26%;
+	font-size: 8pt;
+	letter-spacing: 0.5px;
+}
+#mainpatternv_howwework{height:2160px;width:170%;stroke-width:0.5px;}
+
+#rect_howwework{
+	
+	left: 20px;
+	top: 50px;
+	height: 300px;
+	width: 200px;
+}
+
+
+#rect_howwework_second{
+	
+	
+	right: 20px;
+	top: 985px;
+	height: 300px;
+	width: 200px;
+}
+
+/*.HOW_HOW{
+	font-family: 'Bodoni';
+	right: -120%;
+	top: -180px;
+    font-size: 220px;
+}*/
+
+
+										.page_reviews  {
+														
+															height: 280px;
+															
+														}
+
+#mainpatternv_page_reviews{	height:280px;width:170%;stroke-width:0.5px;}
+#rect_page_reviews{
+	right: 8%;
+	top: 20px;
+	height: 240px;
+	width: 200px;
+
+}
+
+
+			.krtgl_page_reviews{
+
+				top: -20px;
+				font-size: 40px;
+                left: 5%;
+			}
+
+
+
+
+		   .bigreviews{
+                       
+						font-size: 150px;
+						right: -70%;
+						top: -260px;/*-570px*/;						
+					}
+.windowreviews{ border:#F2EEF2 15px solid; z-index: 3; left: 50%; top:65px; width:120px; height: 160px;}
+.page_reviews:hover .windowreviews{width:130px; height: 170px; }
+
+
+				.true_slide{
+	
+								
+								width: 85%;
+								height: 120px;
+								margin-left: 7.2%;
+								margin-top:30%;
+
+							}						
+ 
+
+
+    .sliderB > div > p {
+        
+        top: 0px;
+        right: 10px;
+		font-size:9pt;
+        line-height: 12pt;
+		letter-spacing: -0.1px;
+    }
+
+.sliderB > div > a {
+        
+        font-size: 9pt;
+	top: 80px;
+	left: 7px;
+
+        
+    }
+.sliderB > input:checked + div + label,
+    .sliderB > input:checked + div + label + label {
+
+        width: 35px;
+        height: 84px;
+
+
+    }
+
+
+
+
+.icon{
+	
+	border: 5px #4F3A51 solid;
+	
+	width: 60px;
+	height: 60px;
+	margin-left:35px;
+	margin-top:5px;
+	
+	
+}
+
+																	.page_discounts{
+																						height:280px;
+																					}
+                     
+
+
+
+.krtgl_page_discounts{
+
+				top: -20px;
+				font-size: 40px;
+                left: 5%;
+			}
+
+
+
+
+		   .bigdiscounts{
+             
+						font-size: 150px;
+						right: -18%;
+						top: -200px;
+			      font-family: "Museo Sans Cyrl 500";
+					}
+#mainpatternv_discounts{height:280px;width:170%;stroke-width:0.5px;}
+#rect_discounts{
+	
+	right: 50px;
+	top: 30px;
+	height: 220px;
+	width: 150px;
+	stroke-width: 4px;
+	z-index: 3;
+}
+
+.discounts_text{
+	
+	top:118px;
+	left: 5%;
+
+	
+	
+}
+.discounts_text p{font-size: 10pt; line-height: 14pt; letter-spacing: 0.2px;}
+.discounts_block{
+	                   
+						right: -77%;
+						bottom: 50px;
+						width: 645px;
+						height: 35px;
+						
+						
+	
+}
+
+
+.discounts_block_dark{
+	                    position: absolute;
+						width: 21.5%;
+						height: 100%;
+	                    top:0px;
+	                    left:0px;
+
+		
+						
+}
+
+
+.order_discounts{
+	              
+						left: 215px;
+						top:0px;
+						width: 19.5%;
+						height: 105%;
+						background: #fff;
+						overflow: hidden;
+	                    
+	                                                     
+	                 
+}
+
+/*.order_discounts a{
+	
+	                    color:#1D1D1B;
+						font-family: 'Museo Sans Cyrl 500';
+	                    font-size:15pt;
+						display: inline-block;
+	                    border:1px black solid;
+	                    /*margin-top: 30px;
+						margin-left: 50px;*/
+	             /*       padding-top: 35px;
+						padding-left: 60px;
+						letter-spacing: 3px;
+	                    width: 85%;
+	                    height: 57.5%;
+	                    z-index: 10;
+	                    text-decoration: none;
+	                   
+}
+.order_discounts a:hover{ color:#fff;}*/
+
+.order_discounts button{
+
+	                    font-size:7pt;
+	                    padding-top: 11px;
+	                    padding-left: 15px;
+						padding-right: 15px;
+						letter-spacing: 0.6px;
+	                    width: 200px;
+	                    height: 105%;
+
+
+	                   
+}
+
+.discounts_arrow{
+top:-1px;
+left: 0px;
+	height:100%;
+	width:100%;
+}
+
+
+.days_left{
+	
+    
+	margin-top:11px;
+	margin-left: 11px;
+	
+	
+	
+}
+.days_left p{font-size: 7pt;letter-spacing: 0.3px; }
+
+.count_days_left{
+	
+	left:104px;
+	margin-right: 0px;
+	top: 7px;
+	
+	
+}
+.count_days_left a{font-size: 12pt; letter-spacing: 0px;}
+
+
+.time{
+	
+    letter-spacing: 0.5px;
+	top: 1px;
+	width: 100px;
+	height:35px;
+	right: 405px;
+	font-size: 7pt;
+	
+}
+
+
+.hours
+{
+	margin-left: 7px;
+	margin-top: 7px;
+
+}
+footer{height: 80px;}
+#mainpatternv_footer{height:50px;width:170%;stroke-width:0.5px;}
+#mainpatterng_footer{height: 50px;stroke-width:0.5px;}
+#crosses_footer{height:50px;width:170%;stroke-width:1px;}
+
+footer h5{
+	position: absolute;
+	font-size: 14pt;
+    left:5%;
+	top:3px;
+}
+footer a{
+	
+    right:5%;
+    top: 25px;
+	font-size: 9pt;
+	line-height: 15pt;
+	position: absolute;
+}
+
+footer p{
+	position: absolute;
+	font-size: 8pt;
+	left: 37%;
+    top: 40px;
+
+
+	
+}
+
+
+input[type=text], input[type=password] {
+    width: 94%;
+    padding: 6px 10px;
+    margin: 4px 8px;
+	font-size:14px;
+}
+
+button {
+   
+    padding: 10px 20px;
+    margin: 8px 8px;
+    width: 94%;
+	font-size:15px;
+}
+
+
+.modal h1{ font-family: "Museo Sans Cyrl 100";  font-size: 25px;margin-left:17px; }
+
+/* Modal Content Box */
+.modal-content {
+
+    margin: 5% auto 15% auto;
+    width: 70%; 
+	padding-bottom:5px;
+}
+
+/* The Close Button (x) */
+.close {
+    right: 15px;
+    top: -5px;
+    font-size: 35px;
+
+}
+
+
+
+
+
+
+select {
+    width: 104%;
+    padding: 6px 10px;
+    margin: 5px -5px;
+	font-size:14px;
+}
+
+
+
+.tabs>div {
+    padding: 4px 12px;
+}
+.tabs>label {
+	font-size:12px;
+    padding: 5px;
+    margin: 10px -5px -1px 0;
+
+}
+
+  .sliderB > input:checked + div + label,
+    .sliderB > input:checked + div + label + label {
+        display: block;
+        width: 35px;
+        height: 84px;
+        top: 50%;
+
+    }
+
+
+  .sliderB > input:checked + div + label {
+        left: 0px;
+    }
+
+    .sliderB > input:checked + div + label:after {
+        /*content: '◀';*/
+
+   content: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='100%' width='100%' viewBox='0 0 100 100' preserveAspectRatio='none'><polyline stroke-width='2' stroke-linejoin='miter' points= '90 50 10 50 30 40' fill='none' stroke='#fff'></polyline></svg>");
+
+   height: 84px;
+		width:35px;
+        left: 0%;
+		top:-45%;
+    }
+ .sliderB > input:checked + div + label:hover {
+        /*content: '◀';*/
+
+   content: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='100%' width='100%' viewBox='0 0 100 100' preserveAspectRatio='none'><polyline stroke-width='1' stroke-linejoin='miter' points= '90 54 10 54 30 50' fill='none' stroke='#AFA5B5'></polyline></svg>");
+	 
+ height: 84px;
+   width: 35px;
+        left: 0%;
+		top:50%;
+    }
+
+    .sliderB > input:checked + div + label + label {
+        right: 0px;
+    }
+
+    .sliderB > input:checked + div + label + label:after {
+        /*content: '▶';*/
+		
+		   content: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='100%' width='100%' viewBox='0 0 100 100' preserveAspectRatio='none'><polyline stroke-width='2' stroke-linejoin='miter' points= '10 50 90 50 70 40' fill='none' stroke='#fff'></polyline></svg>");
+		height: 84px;
+   width: 35px;
+        right: 0%;
+		top:-45%;
+    }
+.sliderB > input:checked + div + label + label:hover {
+        /*content: '▶';*/
+
+   content: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='100%' width='100%' viewBox='0 0 100 100' preserveAspectRatio='none'><polyline stroke-width='1' stroke-linejoin='miter' points= '10 54 90 54 70 50' fill='none' stroke='#AFA5B5'></polyline></svg>");
+	 
+ height: 84px;
+   width: 35px;
+        right: 0%;
+		top:50%;
+    }
