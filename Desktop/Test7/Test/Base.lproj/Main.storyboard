@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ms6-sd-AoG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WhF-9a-4NC" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter title for your text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Op5-2J-JG0">
+                                                <rect key="frame" x="16" y="50" width="382" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gFZ-ez-B3p">
+                                                <rect key="frame" x="16" y="90" width="382" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="niQ-Y0-GE8"/>
+                                                </constraints>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use Destroy Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7f-sV-hWt">
+                                                <rect key="frame" x="16" y="132.5" width="172.5" height="26.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jZo-8u-gKs">
+                                                <rect key="frame" x="198.5" y="130" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="actionDatePicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="4IG-AO-a3g"/>
+                                                </connections>
+                                            </switch>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="Uut-91-DP2">
+                                                <rect key="frame" x="35" y="171" width="344" height="80"/>
+                                                <subviews>
+                                                    <datePicker hidden="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="sgY-23-reL">
+                                                        <rect key="frame" x="0.0" y="0.0" width="344" height="0.0"/>
+                                                        <date key="date" timeIntervalSinceReferenceDate="585486257.69900298">
+                                                            <!--2019-07-22 11:04:17 +0000-->
+                                                        </date>
+                                                    </datePicker>
+                                                    <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PJy-Ae-Hk1" userLabel="Stack ViewColor">
+                                                        <rect key="frame" x="0.0" y="0.0" width="344" height="80"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f5X-nq-aW8" userLabel="FirstColor" customClass="CheckedFieldView" customModule="Test" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <gestureRecognizers/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="f5X-nq-aW8" secondAttribute="height" multiplier="1:1" id="kBO-hg-pRy"/>
+                                                                </constraints>
+                                                                <connections>
+                                                                    <outletCollection property="gestureRecognizers" destination="Nhb-Od-bqR" appends="YES" id="dk6-EE-e3G"/>
+                                                                </connections>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ph-Gz-hQU" userLabel="SecondColor" customClass="CheckedFieldView" customModule="Test" customModuleProvider="target">
+                                                                <rect key="frame" x="88" y="0.0" width="80" height="80"/>
+                                                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <gestureRecognizers/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="4Ph-Gz-hQU" secondAttribute="height" multiplier="1:1" id="rih-aT-eqs"/>
+                                                                </constraints>
+                                                                <connections>
+                                                                    <outletCollection property="gestureRecognizers" destination="zQJ-1h-F8J" appends="YES" id="Yvf-Od-KsG"/>
+                                                                </connections>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nz3-Y3-NRd" userLabel="ThirdColor" customClass="CheckedFieldView" customModule="Test" customModuleProvider="target">
+                                                                <rect key="frame" x="176" y="0.0" width="80" height="80"/>
+                                                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <gestureRecognizers/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="nz3-Y3-NRd" secondAttribute="height" multiplier="1:1" id="WQd-hv-YuQ"/>
+                                                                </constraints>
+                                                                <connections>
+                                                                    <outletCollection property="gestureRecognizers" destination="GbB-KQ-vQO" appends="YES" id="ykx-3b-MJb"/>
+                                                                </connections>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QWI-0n-3Sv" userLabel="FourthColor" customClass="CheckedFieldView" customModule="Test" customModuleProvider="target">
+                                                                <rect key="frame" x="264" y="0.0" width="80" height="80"/>
+                                                                <color key="backgroundColor" red="0.48707646129999999" green="0.37915861610000001" blue="0.08812501281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <gestureRecognizers/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="QWI-0n-3Sv" secondAttribute="height" multiplier="1:1" id="1SA-M1-vHW"/>
+                                                                </constraints>
+                                                                <connections>
+                                                                    <outletCollection property="gestureRecognizers" destination="SAw-oI-DMo" appends="YES" id="Rgb-Rh-6xr"/>
+                                                                    <outletCollection property="gestureRecognizers" destination="TZv-16-qc9" appends="YES" id="O5I-Pt-Au4"/>
+                                                                </connections>
+                                                            </view>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="f5X-nq-aW8" firstAttribute="width" relation="lessThanOrEqual" secondItem="PJy-Ae-Hk1" secondAttribute="height" constant="80" id="P5v-da-5Rv"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="sgY-23-reL" firstAttribute="top" secondItem="Uut-91-DP2" secondAttribute="top" id="a8l-32-9pf"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="gFZ-ez-B3p" secondAttribute="trailing" constant="16" id="1JQ-ar-3zk"/>
+                                            <constraint firstItem="jZo-8u-gKs" firstAttribute="leading" secondItem="t7f-sV-hWt" secondAttribute="trailing" constant="10" id="5B0-Jf-ave"/>
+                                            <constraint firstAttribute="trailing" secondItem="Op5-2J-JG0" secondAttribute="trailing" constant="16" id="5Cu-6s-1Lc"/>
+                                            <constraint firstItem="gFZ-ez-B3p" firstAttribute="top" secondItem="Op5-2J-JG0" secondAttribute="bottom" constant="10" id="DSw-lD-ewc"/>
+                                            <constraint firstItem="jZo-8u-gKs" firstAttribute="centerY" secondItem="t7f-sV-hWt" secondAttribute="centerY" id="G0d-zy-8vs"/>
+                                            <constraint firstItem="t7f-sV-hWt" firstAttribute="leading" secondItem="WhF-9a-4NC" secondAttribute="leading" constant="16" id="Ka1-ao-M1D"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Uut-91-DP2" secondAttribute="bottom" constant="200" id="LcI-qS-13h"/>
+                                            <constraint firstItem="gFZ-ez-B3p" firstAttribute="leading" secondItem="WhF-9a-4NC" secondAttribute="leading" constant="16" id="OZb-ve-BYa"/>
+                                            <constraint firstItem="Uut-91-DP2" firstAttribute="top" secondItem="jZo-8u-gKs" secondAttribute="bottom" constant="10" id="iuH-05-6IX"/>
+                                            <constraint firstItem="Op5-2J-JG0" firstAttribute="top" secondItem="WhF-9a-4NC" secondAttribute="top" constant="50" id="jGb-hE-EBb"/>
+                                            <constraint firstItem="Uut-91-DP2" firstAttribute="centerX" secondItem="WhF-9a-4NC" secondAttribute="centerX" id="mX8-aA-cqA"/>
+                                            <constraint firstItem="Op5-2J-JG0" firstAttribute="leading" secondItem="WhF-9a-4NC" secondAttribute="leading" constant="16" id="uCQ-XY-h1F"/>
+                                            <constraint firstItem="jZo-8u-gKs" firstAttribute="top" secondItem="gFZ-ez-B3p" secondAttribute="bottom" constant="10" id="zOZ-6K-Vwg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" name="controlAccentColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="WhF-9a-4NC" secondAttribute="trailing" id="C4k-MJ-fCl"/>
+                                    <constraint firstItem="WhF-9a-4NC" firstAttribute="leading" secondItem="Ms6-sd-AoG" secondAttribute="leading" id="Svk-VE-yur"/>
+                                    <constraint firstAttribute="bottom" secondItem="WhF-9a-4NC" secondAttribute="bottom" id="VOS-QW-ida"/>
+                                    <constraint firstItem="WhF-9a-4NC" firstAttribute="top" secondItem="Ms6-sd-AoG" secondAttribute="top" id="o8w-Mu-8x0"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WhF-9a-4NC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="CXr-dS-KM1"/>
+                            <constraint firstItem="Ms6-sd-AoG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MEC-2a-4DW"/>
+                            <constraint firstItem="Ms6-sd-AoG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="TWA-6G-WWE"/>
+                            <constraint firstAttribute="bottom" secondItem="Ms6-sd-AoG" secondAttribute="bottom" id="YWm-Ph-Jlo"/>
+                            <constraint firstItem="Ms6-sd-AoG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ubv-jP-jAq"/>
+                            <constraint firstItem="WhF-9a-4NC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" priority="250" id="utO-iF-D4H"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ContentView" destination="WhF-9a-4NC" id="0Gd-qZ-oS1"/>
+                        <outlet property="FirstColor" destination="f5X-nq-aW8" id="Sxw-hV-0vL"/>
+                        <outlet property="FourthColor" destination="QWI-0n-3Sv" id="fTM-PD-vK5"/>
+                        <outlet property="SecondColor" destination="4Ph-Gz-hQU" id="fHi-g8-K65"/>
+                        <outlet property="TextView" destination="gFZ-ez-B3p" id="JSh-gP-dCe"/>
+                        <outlet property="ThirdColor" destination="nz3-Y3-NRd" id="aag-fI-aON"/>
+                        <outlet property="datePicker" destination="sgY-23-reL" id="Ecd-t6-FCq"/>
+                        <outlet property="enterTextField" destination="Op5-2J-JG0" id="YyB-Ro-gT1"/>
+                        <outlet property="scrollView" destination="Ms6-sd-AoG" id="u6F-Cv-wfk"/>
+                        <outlet property="switchDate" destination="jZo-8u-gKs" id="XKe-7H-1TD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Nhb-Od-bqR">
+                    <connections>
+                        <action selector="actionFirstColorTapped:" destination="BYZ-38-t0r" id="Upa-Ek-9Gf"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="zQJ-1h-F8J">
+                    <connections>
+                        <action selector="actionSecondColorTapped:" destination="BYZ-38-t0r" id="0iw-pk-fyV"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="GbB-KQ-vQO">
+                    <connections>
+                        <action selector="actionThirdColorTapped:" destination="BYZ-38-t0r" id="HmU-J2-sr6"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="SAw-oI-DMo">
+                    <connections>
+                        <action selector="actionFourthColorTapped:" destination="BYZ-38-t0r" id="EUq-NK-8eI"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="TZv-16-qc9">
+                    <connections>
+                        <action selector="actionLongPressTapped:" destination="BYZ-38-t0r" id="l6t-Pi-5bZ"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="350.72463768115944" y="65.625"/>
+        </scene>
+    </scenes>
+</document>
